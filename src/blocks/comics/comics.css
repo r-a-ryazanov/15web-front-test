@@ -1,6 +1,5 @@
 @import url("__date/comics__date.css");
 @import url("__image/comics__image.css");
-@import url("__title/comics__title.css");
 @import url("__transcription/comics__transcription.css");
 .comics {
   display: inline-block;

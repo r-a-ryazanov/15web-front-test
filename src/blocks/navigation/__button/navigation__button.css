@@ -3,19 +3,22 @@
   border-radius: 5px;
   border: none;
   background-color: rgba(144, 175, 197, 1);
-  color:#2A3132;
+  color: #2A3132;
   outline: none;
   transition: background-color 1s linear 0s;
 }
+
 .navigation__button:hover {
   cursor: pointer;
   background-color: rgba(144, 175, 197, 0.6);
 }
-.navigation__button:disabled{
+
+.navigation__button:disabled {
   background-color: rgba(144, 175, 197, 0.2);
   transition: none;
 }
-.navigation__button:disabled:hover{
+
+.navigation__button:disabled:hover {
   background-color: rgba(144, 175, 197, 0.2);
   cursor: default;
 }
