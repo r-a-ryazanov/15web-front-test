@@ -1,0 +1,8 @@
+.page{max-width:1280px;margin:auto;padding:20px 0;text-align:center}
+.comics__date{float:left}
+.comics__image{max-width:100%}
+.comics__transcription{text-align:left;max-width:100%}
+.comics{display:inline-block;margin:80px 0 0;max-width:100%}
+.navigation__button{width:100px;border-radius:5px;border:none;background-color:#90afc5;color:#2a3132;outline:none;transition:background-color 1s linear 0s}.navigation__button:hover{cursor:pointer;background-color:rgba(144,175,197,.6)}.navigation__button:disabled{background-color:rgba(144,175,197,.2);transition:none}.navigation__button:disabled:hover{background-color:rgba(144,175,197,.2);cursor:default}
+.navigation{position:fixed;background-color:#fff;top:0;padding:20px 0;margin:0;width:100%;max-width:inherit}
+
