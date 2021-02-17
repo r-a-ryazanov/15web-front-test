@@ -21,7 +21,11 @@ function handleComics(comicsData){
    disabledButtonsFunc();
  }
  function handleError(err){
-   console.log(err);
+  comicsTitle.textContent = err;
+  comicsImage.src = '';
+  comicsImage.alt = '';
+  comicsTranscription.textContent = '';
+  comicsDate.textContent = '';
    disabledButtonsFunc();
  }
 getComics(0,(data) =>{
